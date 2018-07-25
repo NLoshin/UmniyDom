@@ -270,16 +270,3 @@ int oprosVikl() //опрос выключателей {
 #endif
 	return rezVent;
 }
-
-	Serial.println("Принудительная вентиляция с выключателя");
-  else if ( checkCO2() )	//проверка датчика СО2
-	Serial.println("Принудительная вентиляция из-за СО2");
-  else if ( checkTime() )	//проверка датчика СО2
-	Serial.println("Вентиляция из-за времени");
-
-	
-  stateV
-  oldStateV
-  prinud - статус принудительной вентиляции
-  stateZapV
-  */
